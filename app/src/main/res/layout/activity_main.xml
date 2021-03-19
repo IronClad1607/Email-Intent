@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
     <EditText
-        android:id="@+id/usernameEditText"
+        android:id="@+id/etSubject"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -17,7 +17,7 @@
         android:textAlignment="center" />
 
     <EditText
-        android:id="@+id/emailEditText"
+        android:id="@+id/etEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -26,15 +26,15 @@
         android:textAlignment="center" />
 
     <EditText
-        android:id="@+id/passwordEditText"
+        android:id="@+id/etMessage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:hint="@string/message"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:textAlignment="center" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/submitButton"
+        android:id="@+id/btnSend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/send" />
